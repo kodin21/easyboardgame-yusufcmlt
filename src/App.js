@@ -6,7 +6,7 @@ function App() {
   const appRef = useRef(null);
 
   useEffect(() => {
-    console.log(appRef.current.classList.add("app--opened"));
+    appRef.current.classList.add("app--opened");
   }, []);
 
   return (

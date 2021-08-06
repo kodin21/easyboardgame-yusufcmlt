@@ -5,11 +5,12 @@
   background-size: cover;
 
   filter: brightness(5%);
+
   transition: 2s;
 
   display: grid;
-  grid-template-columns: [full-start] 1fr [game-start header-start] 64rem [ game-end header-end settings-start] 20rem [settings-end] 1fr [full-end];
-  grid-template-rows: [full-start] 10rem [header-start] 10rem [header-end game-start] 51.2rem [game-end] 1fr [full-end];
+  grid-template-columns: [full-start] 1fr [map-select-start] 20rem [ map-select-end game-start header-start] 64rem [ game-end header-end char-select-start] 20rem [char-select-end] 1fr [full-end];
+  grid-template-rows: [full-start] 10rem [header-start] 10rem [header-end game-start] 51.2rem [game-end dpad-start] 20rem [dpad-end] 1fr [full-end];
 
   &--opened {
     filter: brightness(100%);
@@ -20,6 +21,7 @@
 
     font-size: 3rem;
     color: white;
+    text-transform: uppercase;
     margin: auto;
   }
 }
