@@ -1,7 +1,20 @@
-import "./App.css";
+import { useEffect, useRef } from "react";
+import "./App.scss";
+import GameMap from "./components/map/GameMap";
 
 function App() {
-  return <div className="App">TEST</div>;
+  const appRef = useRef(null);
+
+  useEffect(() => {
+    console.log(appRef.current.classList.add("app--opened"));
+  }, []);
+
+  return (
+    <div ref={appRef} className="app">
+      <h1 className="app__heading-1">Game Test</h1>
+      <GameMap mapHeight="512" mapWidth="640" />
+    </div>
+  );
 }
 
 export default App;

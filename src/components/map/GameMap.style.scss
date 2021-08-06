@@ -1,0 +1,12 @@
+.game-map {
+  &__container {
+    grid-row: game-start/game-end;
+    grid-column: game-start/game-end;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 5px solid red;
+    background-color: white;
+
+    position: relative;
+  }
+}

@@ -1,0 +1,25 @@
+.app {
+  height: 100vh;
+
+  background-image: url("./assets/img/background-img.jpg");
+  background-size: cover;
+
+  filter: brightness(5%);
+  transition: 2s;
+
+  display: grid;
+  grid-template-columns: [full-start] 1fr [game-start header-start] 64rem [ game-end header-end settings-start] 20rem [settings-end] 1fr [full-end];
+  grid-template-rows: [full-start] 10rem [header-start] 10rem [header-end game-start] 51.2rem [game-end] 1fr [full-end];
+
+  &--opened {
+    filter: brightness(100%);
+  }
+  &__heading-1 {
+    grid-column: header-start/header-end;
+    grid-row: header-start/header-end;
+
+    font-size: 3rem;
+    color: white;
+    margin: auto;
+  }
+}
