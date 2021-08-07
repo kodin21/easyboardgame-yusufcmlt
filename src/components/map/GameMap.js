@@ -1,14 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { useGame } from "../../context/GameContext";
+
 import Character from "../character/Character";
 
 import "./GameMap.style.scss";
 
-export default function GameMap({ mapWidth, mapHeight }) {
+export default function GameMap() {
+  const { mapData, setMapData } = useGame();
+
   return (
-    <div
-      className="game-map__container"
-      style={{ width: `${mapWidth}px`, height: `${mapHeight}px` }}
-    >
+    <div className="game-map__container">
       <Character />
     </div>
   );
