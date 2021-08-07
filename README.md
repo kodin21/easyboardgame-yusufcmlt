@@ -1,5 +1,6 @@
-Istenenler tamamlandi.
-Eklenecek birkac ozellik var ondan sonra deploy edecegim.
+![Screenshot 2021-08-07 at 19-36-24 Game](https://user-images.githubusercontent.com/58252790/128607396-b190a851-a21c-4943-9452-c264b1887a1d.png)
+
+```Istenenler tamamlandi.Eklenecek birkac ozellik var ondan sonra deploy edecegim.```
 
 ---
 
