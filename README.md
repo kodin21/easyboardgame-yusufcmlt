@@ -27,7 +27,7 @@ Ne istiyoruz?
 - Opsiyonel olarak uygulamanızı vercel, netlify v.b bir servise deploy edin ve linki readme dosyaniza ekleyin.
 - Arkadaslarinizla discord uzerinden code-review yapin. En az 1 kere! Yazdiginiz kodlari karsilikli olarak nasil daha iyi hale getirebilirsiniz buna bakin.
 
-Daha iyi anlasilmasi icin ornek resimler.
+Daha iyi anlasilmasi icin ornek resimler
 (Burada mario ve kare karakterleri yukari, asagi, sag, sol ok tuslariyla hareket edebiliyor. )
 
 <img width="657" alt="Screen Shot 2021-08-02 at 18 49 38" src="https://user-images.githubusercontent.com/6469914/127889099-c052d9dd-981a-4d0b-90a4-ce0c5747094c.png">
